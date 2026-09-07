@@ -88,7 +88,7 @@ class WelcomePage extends StatelessWidget {
               ),
             ),
             const Text(
-                  'InfraCare: New and Improved',
+                  'InfraCare',
                   style: TextStyle(
                     fontSize: 32,
                     fontWeight: FontWeight.bold,
