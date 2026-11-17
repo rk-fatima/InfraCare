@@ -1,0 +1,21 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: infracare-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: infracare
+  template:
+    metadata:
+      labels:
+        app: infracare
+    spec:
+      containers:
+        - name: infracare-container
+          image: infracare
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 80
