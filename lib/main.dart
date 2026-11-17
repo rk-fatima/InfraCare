@@ -173,7 +173,7 @@ class LoginPage extends StatelessWidget {
                 ),
                 const SizedBox(height: 10),
                 const Text(
-                  'InfraCare',
+                  'InfraCare Hello',
                   style: TextStyle(
                     fontSize: 32,
                     fontWeight: FontWeight.bold,
